@@ -1,5 +1,6 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
+import {WelcomePage} from "./pages/WelcomePage";
 // import './ui.css'
 
 declare function require(path: string): any
@@ -12,10 +13,6 @@ class App extends React.Component {
         this.textbox = element
     }
 
-    componentDidMount() {
-        console.log('tester');
-
-    }
 
     onCreate = () => {
         const count = parseInt(this.textbox.value, 10)
@@ -28,11 +25,7 @@ class App extends React.Component {
 
     render() {
         return <div>
-            {/*<img src={require('./logo.svg')} />*/}
-            <h2>Rectangle Creator</h2>
-            <p>Count: <input ref={this.countRef} /></p>
-            <button id="create" onClick={this.onCreate}>Create</button>
-            <button onClick={this.onCancel}>Cancel</button>
+            <WelcomePage/>
         </div>
     }
 }

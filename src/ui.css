@@ -1,0 +1,148 @@
+
+.h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    padding: 0;
+    margin: 0;
+}
+p, h1, h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Public Sans, Roboto, System, Segoe ui, Inter, sans-serif;
+}
+
+.h6{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin: 0;
+}
+
+.body1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0;
+}
+
+.welcome_page {
+    min-width: calc(100vw - 48px);
+    min-height: 100vh;
+}
+
+.px-4{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.mb-4{
+    margin-bottom: 24px;
+}
+
+.mb-2{
+    margin-bottom: 16px;
+}
+
+.mb-10{
+    margin-bottom: 100px;
+}
+
+.button{
+    padding: 16px 32px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.error{
+    display: flex;
+    justify-content: center;
+}
+.error .content{
+    padding: 16px 32px;
+    border-radius: 15px;
+    color: #ffffff;
+    background-color: #FF4842;
+    display: flex;
+    align-items: flex-start;
+    min-width: calc(100% - 64px);
+}
+
+.error .content .text{
+    flex-grow: 1;
+}
+.error img{
+    margin-left: 12px;
+    cursor: pointer;
+}
+.min-w-sm{
+    min-width: 315px;
+}
+
+.logo{
+    width: 64px;
+    height: 64px;
+}
+
+.hidden{
+    display: none;
+}
+
+.button-primary{
+    background-color: #00AB55;
+    border: 2px solid #00AB55;
+}
+
+.button-secondary{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.bg-paper {
+    background: #151C23;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-grey {
+    color: #BBBBBB;
+}
+
+.text-green {
+    color: #00AB55;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-col{
+    flex-direction: column;
+}
